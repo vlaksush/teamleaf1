@@ -1,0 +1,12 @@
+com\suresh\demos\courses\Course1.class
+com\suresh\demos\Main.class
+com\suresh\demos\items\ItemConfig.class
+com\suresh\demos\courses\Course2.class
+com\suresh\demos\items\Item1.class
+com\suresh\demos\items\Priceable.class
+com\suresh\demos\courses\CourseConfig.class
+com\suresh\demos\courses\CourseManager.class
+com\suresh\demos\items\Item2.class
+com\suresh\demos\courses\Course.class
+com\suresh\demos\items\PriceManager.class
+com\suresh\demos\SpringConfig.class

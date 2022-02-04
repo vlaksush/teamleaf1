@@ -1,0 +1,16 @@
+package com.suresh.demos.profiles;
+
+import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Component;
+
+@Component
+@Profile("prod")
+public class ProdSetup implements Setup {
+
+	@Override
+	public String setupData() {
+		return "Production Setup";
+
+	}
+
+}

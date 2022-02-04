@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+	<bean id="item1"  class="com.suresh.demos.Item1">
+	<property name="price" value="100"></property>
+	</bean>
+	<bean id="item2" class="com.suresh.demos.Item2" />
+
+	<bean id="priceManager" class="com.suresh.demos.PriceManager">
+		<property name="item">
+			<ref bean="item1" />	
+		</property>
+	</bean>
+
+</beans>
+    
